@@ -24,3 +24,9 @@ console.log(undefined < 0);
 // console.log("2" == 2) returns true, but triple equal returns false.
 
 console.log("2" === 2);
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+
