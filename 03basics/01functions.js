@@ -14,3 +14,37 @@ function LoginMessage(username){
 console.log(LoginMessage("Swarn sir"));    // Hello, Swarn sir has just logged in!
 
 //   console.log(LoginMessage())    --> this will print undefined OR we can give a default value in the function like function LoginMessage(username = "Swarn")
+
+
+// SOME More Concepts on Functions:
+
+function CalculateTotalPrice(...price1) {      // Rest parameter enables to add more values to the parameter and return an array of arguments
+    return price1
+}
+
+console.log(CalculateTotalPrice(150, 280, 400, 500));  // [ 150, 280, 400, 500 ]
+
+
+// Objects with Functions:
+
+const myUser = {
+    username : "Swarn",
+    price : 199
+}
+
+function handleObject(anyObject) {
+    console.log(`Username is ${anyObject.username} and the price is ${anyObject.price}`);
+}
+
+handleObject(myUser)
+
+
+// Functions with Arrays:
+
+const myNewArray = [200, 400, 100, 600]
+
+function returnSecondVal(getArray){
+    return getArray[1]
+}
+
+console.log(returnSecondVal(myNewArray)); //400
