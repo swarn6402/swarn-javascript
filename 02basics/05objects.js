@@ -12,10 +12,9 @@ console.log(cricketers);
 
 //JSON:  this is a standard JSON format. API handling is used to then convert it to objects and use them.
 
-{
-    "Username" : "Swarn6402",
-    "Site" : "Github",
-    "Repos" : "In-Progress"
-    "IsLoggedIn" : true
-
-}
+// {
+//   "Username" : "Swarn6402",
+//   "Site" : "Github",
+//   "Repos" : "In-Progress"
+//   "IsLoggedIn" : true
+// }
