@@ -19,7 +19,7 @@ console.log(JsUser["email"]);   // better way to access objects. Also, "email" k
 console.log(JsUser[mySymbol]);  // IMP for interviews --> the way to declare and then access a symbol in an oobject. 
 
 JsUser.email = "swarnjeet@google.com"  // how to change a value in an Object
-// Object.freeze(JsUser) // freezes the object and no changes from here on can be performed on JsUser
+Object.freeze(JsUser) // freezes the object and no changes from here on can be performed on JsUser
 
 
 JsUser.greeting = function(){          // using dot notation to add the greeting method to the JsUser object. This means that now JsUser has a property called greeting, and the value of this property is a function.
