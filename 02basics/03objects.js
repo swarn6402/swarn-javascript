@@ -1,7 +1,8 @@
-// Singleton objects are created with a constructor --> Object.create
+// Singleton objects are created with a constructor -->  const user = new Object() //// Object.create uses an existing object to create a prototype
 
 // Object Literals:
 const mySymbol = Symbol("key1")
+
 const JsUser = {
     name : "Swarn",
     fullname : "Swarnjeet Nath Tiwary",
