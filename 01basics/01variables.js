@@ -1,3 +1,5 @@
+// Variables in Javascript are powerful units and can hold many types of values including functions and objects as well.
+
 const accountId = 642002
 let accountEmail = "swarnjeet@gmail.com"
 var accountPassword = "12345"
