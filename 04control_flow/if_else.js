@@ -45,3 +45,26 @@ else if (GoogleLogin || EmailLogin) {      // Checks for multiple conditions and
 }
 
 // this will come handy and will be used in React while creating websites.
+
+
+// Some new and important Conditional operators:
+
+// Nullish coalescing operator (??):
+
+const foo = null ?? 'default string';
+console.log(foo);
+// Expected output: "default string"
+
+const baz = 0 ?? 42;
+console.log(baz);
+// Expected output: 0   
+
+
+// Ternary Operator -->  condition ? true : false
+
+const IceCream = "Vanilla"
+
+IceCream === "Vanilla" ? console.log("It is Vanilla Icecream!") : console.log("Its crap");
+
+// It is Vanilla Icecream!
+
