@@ -12,7 +12,8 @@ else {
    
 }   //  Email not found
 
-/* Truthy values retun true in boolean context. All values except the falsy ones are truthy values*/
+/* Truthy values retun true in boolean context. All values except the falsy ones are truthy values
+   Some imp truthy values: "0", 'false', "", [], {}, function(){}    */
 
 const myEmail = true
 
