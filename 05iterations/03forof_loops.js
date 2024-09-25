@@ -1,4 +1,4 @@
-// for-of loops: 
+// for-of loops:  for...of is designed for iterable objects(arrays) and returns their values directly, making it more suitable for array iteration.
 
 // in case of an Array:
 const myNumbers = [1, 2, 3, 4, 5]
