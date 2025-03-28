@@ -6,7 +6,7 @@ var accountPassword = "12345"
 accountCity = "Patna"
 let accountState
 
-// accountId = 2 is not allowed because const cannpot be changed
+// accountId = 2 is not allowed because const cannot be changed
 
 accountEmail = "swarn@gmail.com"
 accountPassword = "67890"
