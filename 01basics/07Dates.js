@@ -11,7 +11,7 @@ console.log(myDate.toISOString());     // 2024-09-19T19:34:03.672Z
 console.log(myDate.toUTCString());     // Thu, 19 Sep 2024 19:34:03 GMT
 console.log(myDate.toTimeString());    // 19:34:03 GMT+0000 (Coordinated Universal Time)
 
-let myCreatedDate = new Date(2024, 0, 26, 5, 2)  // I gave 0 as month and it returned Jan. So months start from o in JS.
+let myCreatedDate = new Date(2024, 0, 26, 5, 2)  // I gave 0 as month and it returned Jan. So months start from 0 in JS.
 // console.log(myCreatedDate.toLocaleString());    // 1/26/2024, 5:02:00 AM
 
 myCreatedDate = new Date("06-04-2024")  // Returns the date in DD-MM-YYYY format. Here 01 is Jan.
